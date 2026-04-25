@@ -3,8 +3,8 @@ main = "worker.js"
 compatibility_date = "2026-04-25"
 compatibility_flags = ["nodejs_compat"]
 
-[observability]
-enabled = true 
-# trigger rebuild
+# 关键修复：明确告诉 Wrangler 这是一个纯 Worker（ES Modules）
+build.upload.format = "modules"
 
- 
+[observability]
+enabled = true
