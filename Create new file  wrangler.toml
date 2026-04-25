@@ -5,4 +5,3 @@ compatibility_flags = ["nodejs_compat"]
 
 [observability]
 enabled = true
-fix: clean wrangler.toml (remove duplicate config)
