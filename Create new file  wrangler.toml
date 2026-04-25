@@ -1,0 +1,8 @@
+name = "text-converter"
+main = "worker.js"
+compatibility_date = "2026-04-25"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+添加 wrangler.toml 到 修复 静态 文件 错误
